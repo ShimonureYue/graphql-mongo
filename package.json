@@ -1,0 +1,34 @@
+{
+  "name": "graphql-mongo",
+  "version": "1.0.0",
+  "description": "Practices with Graphql and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShimonureYue/graphql-mongo.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Graphql",
+    "Express"
+  ],
+  "author": "Rogelio Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShimonureYue/graphql-mongo/issues"
+  },
+  "homepage": "https://github.com/ShimonureYue/graphql-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
