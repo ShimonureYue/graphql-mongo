@@ -26,6 +26,7 @@
     "express": "^4.17.1",
     "express-graphql": "^0.8.0",
     "graphql": "^14.4.2",
+    "graphql-iso-date": "^3.6.1",
     "nodemon": "^1.19.1"
   },
   "devDependencies": {
